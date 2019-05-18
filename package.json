@@ -1,0 +1,27 @@
+{
+  "name": "class-multuiplication-ui",
+  "version": "0.0.1",
+  "description": "UI Service for multiplication/gamification microservices",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caal-15/class-multuiplication-ui.git"
+  },
+  "keywords": [
+    "express",
+    "statis"
+  ],
+  "author": "Carlos González",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caal-15/class-multuiplication-ui/issues"
+  },
+  "homepage": "https://github.com/caal-15/class-multuiplication-ui#readme",
+  "dependencies": {
+    "express": "^4.17.0"
+  }
+}
