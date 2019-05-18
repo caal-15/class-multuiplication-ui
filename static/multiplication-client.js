@@ -15,7 +15,7 @@ function updateResults(alias) {
     var userId = -1;
     $.ajax({
         async: false,
-        url: "http://localhost:8080/multiplications?userAlias=" + alias,
+        url: "http://localhost:8080/multiplications?userAlias=" + alias + "&sort=id&order=desc&count=10",
         success: function(data) {
             $('#results-div').show();
             $('#results-body').empty();
