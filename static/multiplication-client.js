@@ -59,7 +59,6 @@ $(document).ready(function() {
             dataType: "json",
             async: false,
             success: function(result){
-                console.log(result)
                 if(result.correct) {
                     $('.result-message').empty()
                         .append("<p class='bg-success text-center'>The result is correct! Congratulations!</p>");
@@ -73,8 +72,8 @@ $(document).ready(function() {
         updateMultiplication();
 
         setTimeout(function(){
-            var userId = updateResults(userAlias);
-            updateStats(userId);
+            updateResults(userAlias);
+            updateStats(userAlias);
             updateLeaderBoard();
         }, 300);
     });
